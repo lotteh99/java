@@ -60,6 +60,42 @@ public class project {
 			   }
 			 }
 			 break;
+			 
+			 if(computer.equals("보"))
+			 {
+			   if(s.equals("가위"))
+			   {
+				   System.out.println("사용자 = 가위 , 컴퓨터= 보, 사용자가 이겼습니다.");
+			   }
+			 }
+			 break; 
+			 
+			 if(computer.equals("가위"))
+			 {
+			   if(s.equals("바위"))
+			   {
+				   System.out.println("사용자 = 바위 , 컴퓨터= 가위, 시용자가 이겼습니다.");
+			   }
+			 }
+			 break;
+			 
+			 if(computer.equals("보"))
+			 {
+			   if(s.equals("바위"))
+			   {
+				   System.out.println("사용자 = 바위 , 컴퓨터= 보, 컴퓨터가 이겼습니다.");
+			   }
+			 }
+			 break;
+			 
+			 if(computer.equals("가위"))
+			 {
+			   if(s.equals("보"))
+			   {
+				   System.out.println("사용자 = 보 , 컴퓨터= 가위, 사용자가 이겼습니다.");
+			   }
+			 }
+			 break;
 		 }
 
 	}
